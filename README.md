@@ -10,6 +10,13 @@ Please follow [official guide](https://deno.land/#installation) for installing d
 
 ## Usage
 
+Create a `.env` file from the `.env.sample`. The content should look like below:
+
+```
+DB_NAME=deno_demo
+DB_HOST_URL=mongodb://localhost:27017
+```
+
 From the root directory of the project, run the following command:
 
 ```
